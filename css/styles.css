@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 0.1s ease-in;
+}
+
+button {
+  border: none;
+}
+
+button:focus,
+button:active,
+button:hover {
+  outline: none;
+}
+
+body {
+  font-size: 100%;
+  margin: 0;
+  background-color: #f3f3f3;
+}
+
+.container__fullwidth {
+  width: 100%;
+}
+
+.container__intro {
+  display: block;
+  max-width: 1366px;
+  height: 736px;
+  margin: 0 auto;
+  background-image: url("../img/Layer 2.png");
+  min-height: 737px;
+  background-size: auto 737px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container__intro .header__logo {
+  background-image: url("../img/Bouncy.png");
+  background-repeat: no-repeat;
+  height: 19px;
+  width: 113px;
+  display: inline-block;
+  margin-left: 97px;
+  margin-top: 47px;
+}
+
+.container__intro .header__menu {
+  list-style: none;
+  display: inline-block;
+  font-size: 0;
+  padding-left: 0;
+  vertical-align: top;
+  padding-top: 35px;
+  float: right;
+}
+
+.container__intro .header__menu .menu__item {
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #fff;
+  position: relative;
+}
+
+.container__intro .header__menu .menu__item:hover {
+  opacity: 0.5;
+}
+
+.container__intro .header__menu a:first-child li {
+  border: solid 1px #fff;
+  border-radius: 50px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.container__intro .header__menu a:last-child li {
+  padding-right: 99px;
+}
+
+.container__intro .description__title {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 35px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  color: #fff;
+  padding-top: 215px;
+}
+
+.container__intro .description__text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  line-height: 28px;
+  padding-top: 28px;
+}
+
+.container__portfolio {
+  display: block;
+  max-width: 1366px;
+  height: 1406px;
+  margin: 0 auto;
+}
+
+.container__portfolio .portfolio {
+  width: 100%;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container__portfolio .portfolio .title {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #000000;
+  padding-top: 71px;
+  padding-bottom: 33px;
+}
+
+.container__portfolio .portfolio .description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #81868e;
+  text-align: center;
+  line-height: 25px;
+}
+
+.container__the_team {
+  display: block;
+  max-width: 1366px;
+  height: 650px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.container__the_team .the_team {
+  width: 100%;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container__the_team .the_team .title {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #000000;
+  padding-top: 71px;
+  padding-bottom: 33px;
+}
+
+.container__the_team .the_team .description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #81868e;
+  text-align: center;
+  line-height: 25px;
+}
+
+.container__team_cta {
+  display: block;
+  max-width: 1366px;
+  height: 201px;
+  margin: 0 auto;
+  background-image: url("../img/Layer 104.png");
+  min-height: 201px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container__team_cta .team_cta {
+  width: 100%;
+  height: 201px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container__team_cta .team_cta .title_cta {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+  padding-top: 60px;
+}
+
+.container__team_cta .team_cta .cta {
+  display: block;
+  height: 40px;
+  width: 140px;
+  background-color: transparent;
+  border: solid 1px #fff;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  margin-top: 33px;
+}
+
+.container__team_cta .team_cta .description__cta:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.container__testimonials {
+  display: block;
+  max-width: 1366px;
+  height: 650px;
+  margin: 0 auto;
+}
+
+.container__testimonials .testimonials {
+  width: 100%;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container__testimonials .testimonials .title {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #000000;
+  padding-top: 71px;
+  padding-bottom: 33px;
+}
+
+.container__testimonials .testimonials .description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #81868e;
+  text-align: center;
+  line-height: 25px;
+}
+
+.container__contact {
+  display: block;
+  max-width: 1366px;
+  height: 736px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.container__contact .contact_us {
+  width: 100%;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container__contact .contact_us .title {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #000000;
+  padding-top: 71px;
+  padding-bottom: 33px;
+}
+
+.container__contact .contact_us .description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #81868e;
+  text-align: center;
+  line-height: 25px;
+}
+
+.container__contact .map {
+  width: 100%;
+  height: 440px;
+}
+
+.container__contact .map #map {
+  width: 100%;
+  height: 440px;
+}
+
+footer {
+  height: 205px;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .footer__icon {
+  padding-top: 16px;
+  padding-bottom: 25px;
+}
+
+footer .copyright {
+  padding-bottom: 40px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #81868e;
+}
+
+footer .social .social__ico .ico {
+  padding-left: 3px;
+  padding-right: 3px;
+  cursor: pointer;
+}
+
+footer .social .social__ico .ico:hover {
+  opacity: 0.5;
+}
